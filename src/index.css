@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: rgb(201, 188, 201);
+  height: 100vh;
+}
+
+.products {
+  padding-top: 200px;
+}
+
+.women img {
+  margin-left: 250px;
+}
+
+.advantage {
+  margin-left: 30px;
+  display: flex;
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+}
+
+.item div {
+  margin-left: 20px;
+}
+
+.products h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.products h1 {
+  line-height: 52px;
+  font-size: 50px;
+  margin: 6px 0 20px;
+  font-weight: 400;
+}
+
+.products button {
+  padding: 15px 35px 17px;
+  font-size: 16px;
+  color: #010101;
+  display: inline-block;
+  border: 1px solid #333;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.container {
+  display: flex;
+}
