@@ -17,9 +17,103 @@ code {
   margin: 0 auto;
 }
 
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card img {
+  width: 340px;
+  height: 400px;
+}
+
+.card {
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.border {
+  padding: 35px;
+  background-color: #f7f7f7;
+}
+
+.border div {
+  display: flex;
+  align-items: center;
+  margin-left: 550px;
+  font-size: 12px;
+}
+
+.addto {
+  background-color: #a749ff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 7px 12px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.cartsItem img {
+  width: 120px;
+}
+
+.cartsItem {
+  padding: 21px 45px 22px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #f7f7f7;
+}
+
+.menu {
+  border-bottom: 3px solid #f7f7f7;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu p {
+  font-size: 14px;
+  padding: 21px 45px 22px;
+}
+
+.MyItems h3 {
+  margin-top: 10vh;
+  margin-left: 130px;
+}
+
+.cart {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid #f7f7f7;
+}
+
+.border div a {
+  text-decoration: none;
+}
+
+.border div h1 {
+  color: #5b5858;
+}
+
 main {
   background-color: rgb(201, 188, 201);
   height: 100vh;
+}
+
+.daily {
+  margin: 10vh 0 10vh;
 }
 
 .products {

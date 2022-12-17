@@ -7,16 +7,16 @@ const Header = () => {
     return(
         <div className={css.head}>
            <div className={css.header_left}>
-                <h1>Flone.</h1>
+                <Link to='/'><h1>Flone.</h1></Link>
            </div>
            <div className={css.header_center}>
-            <Link>Collection</Link>
-            <Link>About us</Link>
-            <Link>Contact us</Link>  
+            <Link to='/profile'>Wishlist</Link>
+            <Link to='/about'>About us</Link>
+            <Link to='/conctat'>Contact us</Link>  
            </div>
            <div className={css.header_right}>
-               <Link><img src={heart} width='23px' alt="" /></Link>
-               <Link><img src={avatar} width='23px' alt="" /></Link>
+               <Link to='/profile'><img src={heart} width='23px' alt="" /></Link>
+               <Link to='/profile'><img src={avatar} width='23px' alt="" /></Link>
                <Link><img src={pocket} width='23px' alt="" /></Link>
            </div>
         </div>

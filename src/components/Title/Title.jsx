@@ -1,6 +1,6 @@
 
 
-function Title(props) {
+const  Title = (props) => {
     return (
       <h1 style={{textAlign: props.position}}>
           {props.children}
